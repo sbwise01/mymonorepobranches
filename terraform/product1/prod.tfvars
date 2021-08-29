@@ -1,0 +1,6 @@
+assume_role_arn       = "arn:aws:iam::509680183794:role/braddevops"
+assume_role_session   = "terraform-prod-product1"
+platform_state_bucket = "brad-terraform-state-us-east-1"
+platform_state_key    = "prodplatform.tfstate"
+platform_state_region = "us-east-1"
+region                = "us-east-1"

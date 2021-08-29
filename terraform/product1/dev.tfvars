@@ -1,0 +1,6 @@
+assume_role_arn       = "arn:aws:iam::238080251717:role/devops"
+assume_role_session   = "terraform-dev-product1"
+platform_state_bucket = "bw-terraform-state-us-east-1"
+platform_state_key    = "devplatform.tfstate"
+platform_state_region = "us-east-1"
+region                = "us-west-2"
